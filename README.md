@@ -6,14 +6,22 @@ and **how** to read the evidence without guessing.
 
 ## Install
 
+Current public mirror:
+
+```bash
+npx skills add jenithpaul-2/vanta-skill
+```
+
+Canonical target once the repository is transferred to the `Aethlon` org:
+
 ```bash
 npx skills add aethlon/vanta-skill
 ```
 
-Pick the `vanta` skill and your host agent. To install globally:
+Choose the `vanta` skill and your host agent. To install globally:
 
 ```bash
-npx skills add aethlon/vanta-skill --global --skill vanta
+npx skills add jenithpaul-2/vanta-skill --global --skill vanta
 ```
 
 The skill uses the `vanta` binary. If it is not installed, follow
